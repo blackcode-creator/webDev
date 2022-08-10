@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Group 58 | Sign in</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- ======= Animation line Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+     
+
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+			<defs>
+				<path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+			</defs>
+				<g class="wave1">
+					<use xlink:href="#wave-path" x="50" y="3" fill="#0693e3">
+				</g>
+				<g class="wave2">
+					<use xlink:href="#wave-path" x="50" y="0" fill="#0693e3">
+				</g>
+				<g class="wave3">
+					<use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+				</g>
+    	</svg>
+
+    </section>
+    <!-- End Hero -->
+  <div class="headers">
+  	<h2>Account Wizard</h2>
+  </div>
+	 
+  <form class="login">
+  	<div class="input-group">
+  		<label>Username</label>
+		  <input type="text" name="userid" placeholder="Santos" class="text-field"/>
+		</div>
+	  <div class="input-group">
+		<label>Email</label>
+		<input type="email" name="email"  placeholder="emample@group58.com">
+	</div>
+  	<div class="input-group">
+  		<label>Password</label>
+		  <input type="password" name="pswrd" placeholder="************" class="text-field"/>
+		</div>
+  	<div class="input-group">
+		<input type="submit" class="btn" onclick="check(this.form)" value="Login" style="width: 20%;"/>
+	</div>
+  	<p class="lnk-p" style="font-weight: 600;">
+  		Not yet a member? <a href="register.html" class="lnk">Sign up</a>
+  	</p>
+  </form>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
